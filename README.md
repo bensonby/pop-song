@@ -13,4 +13,6 @@
    - to cross fade video and audio `concat-video.sh`
    - to add captions to the video: `ffmpeg -i raw.mp4 -vf subtitles=subtitles.ass -c:a copy with-captions.mp4`
    - timestamps for cross fade and subtitles are generated with help of `extract-duration.sh` and `get-subtitles.ass.py`
-
+   - to add starting and ending fades to overall video `overall-fade.sh`
+3. Fonts
+   - Google's Noto Sans font is used for the captions
